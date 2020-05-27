@@ -12,8 +12,9 @@ function setup() {
   damage=(0.5*weight*speed*speed)/(thickness*thickness*thickness);
 
   bullet = createSprite(500, 200, 50, 10);
+  bullet.shapeColor = color(255,255,255);
+  
   wall = createSprite(1200,200,thickness,height/2);
-
   wall.shapeColor = color(80,80,80);
 }
 
